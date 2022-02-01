@@ -1,0 +1,77 @@
+<br><br>
+<h1 class="text-center resume">Resume</h1>
+
+
+
+
+
+<div class="resume-box">
+  <div class="shadow-lg p-3 mb-5 bg-white rounded">
+    <div class="row">
+      <div class="col-md-3 left-portion">
+        <div id="list-example" class="list-group">
+          <button on-mouseover="handleResumeComponentRender('education')" class="list-group-item list-group-item-action"
+            href="#list-item-1">Education</button>
+          <button on-mouseover="handleResumeComponentRender('experience')" class="list-group-item list-group-item-action"
+            href="#list-item-2">Experience</button>
+          <button on-mouseover="handleResumeComponentRender('skills')" class="list-group-item list-group-item-action"
+            href="#list-item-3">Skills</button>
+          <button on-mouseover="handleResumeComponentRender('interests')" class="list-group-item list-group-item-action"
+            href="#list-item-4">Interests</button>
+        </div>
+      </div>
+  
+      <div class="right-portion col-md-9">
+        <app-education *ngIf=education></app-education>
+        <app-experience *ngIf=experience></app-experience>
+        <app-skills *ngIf=skills></app-skills>
+        <app-interests *ngIf=interests></app-interests>
+      </div>
+    </div>
+  </div>
+
+</div>
+<br><br><br><br><br><br><br><br><br><br><br>
+
+
+<!-- <div data-spy="scroll" data-target="#list-example" data-offset="0" class="scrollspy-example">
+      <h4 id="list-item-1">Item 1</h4>
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut sunt accusamus incidunt facere rem nihil eum,
+        laboriosam et ea vel voluptates porro in! Maxime, iure tempore omnis vel deserunt illum?
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam, molestiae voluptate nobis repellendus
+        excepturi nesciunt? At ipsum, nostrum dolorum itaque aut laborum molestias, exercitationem eveniet porro magnam
+        voluptatum iure deserunt.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut itaque cum molestiae quis doloribus repellat et
+        maiores necessitatibus voluptatum distinctio. Voluptatibus quas deleniti reiciendis laudantium dolorum
+        architecto eaque molestias consectetur.
+      </p>
+      <h4 id="list-item-2">Item 2</h4>
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut sunt accusamus incidunt facere rem nihil eum,
+        laboriosam et ea vel voluptates porro in! Maxime, iure tempore omnis vel deserunt illum?
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam, molestiae voluptate nobis repellendus
+        excepturi nesciunt? At ipsum, nostrum dolorum itaque aut laborum molestias, exercitationem eveniet porro magnam
+        voluptatum iure deserunt.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut itaque cum molestiae quis doloribus repellat et
+        maiores necessitatibus voluptatum distinctio. Voluptatibus quas deleniti reiciendis laudantium dolorum
+        architecto eaque molestias consectetur.
+      </p>
+      <h4 id="list-item-3">Skills</h4>
+      <app-skills></app-skills>
+      <h4 id="list-item-4">Item 4</h4>
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut sunt accusamus incidunt facere rem nihil eum,
+        laboriosam et ea vel voluptates porro in! Maxime, iure tempore omnis vel deserunt illum?
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam, molestiae voluptate nobis repellendus
+        excepturi nesciunt? At ipsum, nostrum dolorum itaque aut laborum molestias, exercitationem eveniet porro magnam
+        voluptatum iure deserunt.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut itaque cum molestiae quis doloribus repellat et
+        maiores necessitatibus voluptatum distinctio. Voluptatibus quas deleniti reiciendis laudantium dolorum
+        architecto eaque molestias consectetur.
+      </p>
+    </div>
+  </div> -->
+
+
+  <br><br><br><br><br><br><br><br><br><br><br><br><br><br>f

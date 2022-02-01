@@ -1,0 +1,33 @@
+
+.fa {
+  margin: 0px 5px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.fa-linkedin {
+  margin: 0px 0px;
+}
+
+.left-portion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  color: green;
+}
+
+.row {
+  
+}
+
+/* .img-fluid {
+  width: 500px;
+  height: 500px;
+  margin-left: 8%;
+} */

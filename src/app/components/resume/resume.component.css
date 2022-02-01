@@ -1,0 +1,68 @@
+
+.resume-box {
+  margin: 50px 8%;
+  /* border: solid red; */
+}
+
+/* .right-portion::-webkit-scrollbar {
+  display: none;
+} */
+
+.right-portion {
+  height: 420px;
+  overflow: hidden;
+  overflow-y: scroll;
+  /* scrollbar-width: none; */
+  scroll-margin-right: 100px;
+}
+
+/* .left-portion {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+} */
+
+.left-portion {
+  height: 420px;
+}
+
+#list-example button {
+  vertical-align: middle;
+  text-align: center;
+  line-height: 77px;
+  margin-top: 10px;
+  border: none;
+}
+
+.resume {
+  color: #4b4f60;
+  font-family: "Gilroy-Bold";
+}
+
+
+
+
+::-webkit-scrollbar {
+  width: 15px;
+  
+}
+
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+
+::-webkit-scrollbar-thumb {
+  background: #292C6D;
+  border-radius: 100px;
+}
+
+
+.test {
+  border: solid green;
+  height: 400px;
+  margin-left: 100px;
+  margin-right: 100px;
+}

@@ -1,0 +1,17 @@
+.header {
+  padding: 0px 100px;
+  background-color: #292C6D;
+}
+
+.navbar-brand {
+  color: #FAEDF0;
+}
+
+.navbar-nav .nav-link {
+  padding: 10px 30px;
+  color: #FAEDF0;
+}
+
+.navbar-toggler-icon {
+  background-image: url("https://cdn-icons.flaticon.com/png/512/2099/premium/2099089.png?token=exp=1643608913~hmac=f679b98af8c75e79318302bedc4e28da");
+  }
