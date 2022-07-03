@@ -34,10 +34,10 @@
   border: none;
 }
 
-.resume {
+/* .resume {
   color: #4b4f60;
   font-family: "Gilroy-Bold";
-}
+} */
 
 
 
@@ -65,4 +65,29 @@
   height: 400px;
   margin-left: 100px;
   margin-right: 100px;
+}
+
+.resume {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  margin-bottom: 150px;
+  margin-top: 50px;
+}
+
+button {
+  width: 400px;
+  height: 130px;
+  font-weight: 600;
+  font-size: 40px;
+}
+
+
+@media screen and  (max-width: 480px) {
+  button {
+    width: 333px;
+    height: 110px;
+    font-weight: 600;
+    font-size: 40px;
+  }
 }

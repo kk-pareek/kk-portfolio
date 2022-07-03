@@ -7,36 +7,36 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ResumeComponent implements OnInit {
 
-  education:boolean = true;
-  experience:boolean = false;
-  skills:boolean = false;
-  interests:boolean = false;
+  education: boolean = true;
+  experience: boolean = false;
+  skills: boolean = false;
+  interests: boolean = false;
 
   constructor() { }
 
   ngOnInit(): void {
   }
 
-  handleResumeComponentRender(componentName:string): void {
-    if(componentName === "education") {
+  handleResumeComponentRender(componentName: string): void {
+    if (componentName === "education") {
       this.education = true;
       this.experience = false;
       this.skills = false;
       this.interests = false;
     }
-    if(componentName === "experience") {
+    if (componentName === "experience") {
       this.education = false;
       this.experience = true;
       this.skills = false;
       this.interests = false;
     }
-    if(componentName === "skills") {
+    if (componentName === "skills") {
       this.education = false;
       this.experience = false;
       this.skills = true;
       this.interests = false;
     }
-    if(componentName === "interests") {
+    if (componentName === "interests") {
       this.education = false;
       this.experience = false;
       this.skills = false;
@@ -44,4 +44,14 @@ export class ResumeComponent implements OnInit {
     }
   }
 
+  downloadResume() {
+    const link = document.createElement('a');
+    link.setAttribute('target', '_blank');
+    link.setAttribute('href', 'https://drive.google.com/file/d/17CnTy-yr1tDDdiVDtfAh1eh0MI7__Cpm/view');
+    link.setAttribute('download', `Krishan Kumar Pareek.pdf`);
+    document.body.appendChild(link);
+    link.click();
+    link.remove();
+
+  }
 }

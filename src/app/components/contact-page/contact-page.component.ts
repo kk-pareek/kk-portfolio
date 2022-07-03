@@ -12,4 +12,7 @@ export class ContactPageComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  openEmail() {
+    window.open("mailto:xyz@yourapplicationdomain.com", '_blank');
+  }
 }
