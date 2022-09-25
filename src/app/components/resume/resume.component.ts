@@ -47,7 +47,7 @@ export class ResumeComponent implements OnInit {
   downloadResume() {
     const link = document.createElement('a');
     link.setAttribute('target', '_blank');
-    link.setAttribute('href', 'https://drive.google.com/file/d/17CnTy-yr1tDDdiVDtfAh1eh0MI7__Cpm/view');
+    link.setAttribute('href', 'https://drive.google.com/file/d/1wm6fqaSqbQIn60ZlIN9_hLIV0tBFhECD/view?usp=sharing');
     link.setAttribute('download', `Krishan Kumar Pareek.pdf`);
     document.body.appendChild(link);
     link.click();

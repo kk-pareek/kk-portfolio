@@ -1,6 +1,7 @@
 
 .resume-box {
   margin: 50px 8%;
+  margin-top: none !important;
   /* border: solid red; */
 }
 
@@ -72,7 +73,7 @@
   justify-content: center;
   justify-items: center;
   margin-bottom: 150px;
-  margin-top: 50px;
+  margin-top: 25px;
 }
 
 button {

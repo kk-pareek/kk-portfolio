@@ -12,4 +12,7 @@ export class LandingPageComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  openEmail() {
+    window.open("mailto:k.k.pareek18@gmail.com", '_blank');
+  }
 }
